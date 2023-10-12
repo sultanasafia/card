@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lato&family=Oswald&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&family=Ubuntu:wght@300&display=swap');
+body{
+    background-color: #0D1A2D;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.box{
+min-height: 580px;
+width: 100%;
+max-width: 350px;
+background-color: #15273F;
+margin: auto;
+margin-top: 20px;
+padding: 20px;
+border-radius: 12px;
+padding-bottom: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+h2{
+    color: #fff;
+}
+p{
+    color: #4A6083;
+}
+ .box-icon1{
+   background-color: #11F3F4 ;
+}
+.span1{
+    color: #11F3F4;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.span2{
+    color: #4A6083;
+}
+.box-icon2{
+    color: #4A6083;
+}
+hr{
+    background-color: #5882c5;
+}
+span img{
+    width: 30px;
+}
+b{
+    color: #4A6083;
+}
+.white{
+    color: #fff;
+}
+div span{
+   text-align: center;
+   justify-content: center;
+   padding: 10px;
+
+}
