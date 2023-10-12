@@ -1,111 +1,42 @@
 body{
-    background-color: #F2F2F2;
+    margin: 0;
+    font-family: cursive;
 }
-.card-container{
-    display: flex;
+
+.hashtag-header{
+padding: 2rem;
+background-color: #2d2df0;
+color: white;
+background-image: url(./background-imgback.png);
+background-position: 100%;
+background-repeat: no-repeat;
+margin-left: 30px;
+/* display: flex; */
+
 }
-.orange-card{
-    background-color: #E28525;
-    height:480px ;
-    width: 260px;
-    color: white;
-    padding: 50px;
-    border-radius: 12px;
- 
+h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
 }
-.orange-card img{
-    width: 60px;
-    padding: 14px;
-  
+.hashtag-header span{
+    font-size: 2rem;
+}
+.hashtag-header img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid white;
+   
     
 }
-.orange-card h1{
-    margin-left: 19px;
+img{
+    margin-left: -1rem;
 }
-.orange-card p{
-    padding: 20px;
-    line-height: 2rem;
-}
-.orange-card button{
-    
-    border-radius: 32px;
-    padding: 16px 39px 16px 39px;
-    margin-top: 71px;
-    margin-left: 21px;
-    background-color: #E28525;
-   border: 2px solid white;
-   color: white;
-}
-/* =================== */
-.darkcyan-card{
-    background-color: #016972;
-    height:480px ;
-    width: 260px;
-    color: white;
-    padding: 50px;
-    border-radius: 12px;
- 
-}
-.darkcyan-card img{
-    width: 60px;
-    padding: 14px;
-  
-    
-}
-.darkcyan-card h1{
-    margin-left: 19px;
-}
-.darkcyan-card p{
-    padding: 20px;
-    line-height: 2rem;
-}
-.darkcyan-card button{
-    
-    border-radius: 32px;
-    padding: 16px 39px 16px 39px;
-    margin-top: 71px;
-    margin-left: 21px;
-    background-color: #016972;
-   border: 2px solid white;
-   color: white;
-}
-/* 3 =============*/
-.darkgreen-card{
-    background-color: #00403F;
-    height:480px ;
-    width: 260px;
-    color: white;
-    padding: 50px;
-    border-radius: 12px;
- 
-}
-.darkgreen-card img{
-    width: 60px;
-    padding: 14px;
-  
-    
-}
-.darkgreen-card h1{
-    margin-left: 19px;
-}
-.darkgreen-card p{
-    padding: 20px;
-    line-height: 2rem;
-}
-.darkgreen-card button{
-    
-    border-radius: 32px;
-    padding: 16px 39px 16px 39px;
-    margin-top: 71px;
-    margin-left: 21px;
-    background-color: #00403F;
-   border: 2px solid white;
-   color: white;
-}
-@media screen and (max-width:450px){
-    .card-container{
-      margin-left: 10px;
-      margin-right: 10px;
-    flex-direction: column;
-    }
+.image-container{
+    display: inline-flex;
+    /* justify-content: flex-end; */
+    /* flex-direction: row-reverse; */
+    vertical-align: middle;
+    margin-left: 32px;
 }
