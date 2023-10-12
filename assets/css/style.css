@@ -1,0 +1,34 @@
+body{
+    background-color: #D5E1EF ;
+    box-sizing: border-box;
+}
+
+
+
+.box{
+min-height: 498px;
+max-width: 320px;
+background-color: #fff;
+margin: auto;
+padding: 23px;
+margin-top: 60px;
+border-radius: 1rem;
+font-family: sans-serif;
+color: #202A45;
+text-align: center;
+transition: 1s linear;
+
+
+}
+.box:hover{
+transform: scale(110%);
+}
+img{
+   max-width: 100%;
+    border-radius: 13px;
+}
+p{
+    color: #B5B7C3;
+    padding-left: 20px;
+    padding-right: 20px;
+}
